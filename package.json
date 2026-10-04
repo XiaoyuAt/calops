@@ -1,0 +1,28 @@
+{
+  "name": "calops",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Calendar Ops — a personal agent that operates a calendar of uncertain, colliding, city-spanning events. Built for Build Personal Agents Hack (SF, 2026-10-04).",
+  "scripts": {
+    "dev": "tsx scripts/dev.ts",
+    "seed": "tsx scripts/seed.ts",
+    "simulate:approval": "tsx scripts/simulate-approval.ts",
+    "demo": "tsx scripts/demo.ts",
+    "mastra": "mastra"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^4.0.83",
+    "@ai-sdk/openai-compatible": "^3.0.62",
+    "@libsql/client": "^0.15.0",
+    "@mastra/core": "^1.35.0",
+    "postgres": "^3.4.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "mastra": "^0.1.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
